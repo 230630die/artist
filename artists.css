@@ -4,41 +4,224 @@ main {
   border-radius: 0 0 var(--container-border) var(--container-border);
   position: relative;
 }
+
 main h3 {
   font-size: var(--h1-font-size);
   text-transform: uppercase;
   font-weight: bold;
-  color: white;
   margin: 0 auto;
   position: absolute;
   bottom: 6.375rem;
   left: 15.063rem;
 }
+
 .article1 {
-  padding: var(--page-padding);
+  background-color: var(--light-bg-color);
 }
+
 .article1 .article1-txt-img {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  border-radius: 0 0 var(--container-border) var(--container-border);
+  background-color: white;
+  padding: var(--page-padding);
 }
+
 .article1 .article1-txt-img .txt h3 {
   font-size: var(--h3-font-size);
   font-weight: bold;
   font-family: var(--eng-font);
 }
+
 .article1 .article1-txt-img .txt h3:nth-child(2) {
   margin-bottom: 4.188rem;
 }
+
 .article1 .article1-txt-img .txt p {
   font-size: var(--p-font-size);
   margin-bottom: 2rem;
+  width: 31.063rem;
+}
+
+.article1 .article1-txt-img .txt p:nth-child(2) {
   width: 27.188rem;
 }
-.article1 .article1-txt-img .txt p:nth-child(2) {
-}
+
 .article1 .article1-txt-img .img {
   width: 36.25rem;
   height: 36.25rem;
   background-color: #ddd;
+  background: url(./images/artist/WINNERalbum.jpg) no-repeat 50% / cover;
   border-radius: 400px 0 40px 0;
+}
+
+.article2 {
+  width: 100%;
+  background-color: var(--light-bg-color);
+  text-align: center;
+}
+
+.article3 {
+  background-color: var(--light-bg-color);
+}
+
+.article3 .article3-bg {
+  background: #000;
+  border-radius: var(--container-border);
+  padding: 3.75rem 6.25rem 14.69rem;
+}
+
+.article3 .article3-bg .article3-artists h2 {
+  color: white;
+  font-size: var(--h2-font-size);
+  width: 100%;
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+  padding-left: 7.81rem;
+  margin-bottom: 2.375rem;
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .bigbang {
+  width: 15.5rem;
+  height: 16.063rem;
+  background: url(./images/artist/bigbang.jpg) no-repeat 50%/ cover;
+  filter: grayscale(100%);
+  border-radius: 30px;
+  position: relative;
+  /* margin: .84rem; */
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .bigbang p {
+  width: 100%;
+  height: 45px;
+  background: #FFF;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  bottom: 0;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .blackPink {
+  width: 17.5rem;
+  height: 16.063rem;
+  background: url(./images/artist/black\ pink.jpg) no-repeat 50%/ cover;
+  filter: grayscale(100%);
+  border-radius: 30px;
+  position: relative;
+  /* margin: .84rem; */
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .blackPink p {
+  width: 100%;
+  height: 45px;
+  background: #FFF;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  bottom: 0;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .winner {
+  width: 17.5rem;
+  height: 14.688rem;
+  background: url(./images/artist/winner.jpg) no-repeat 50%/ cover;
+  filter: grayscale(100%);
+  border-radius: 30px;
+  position: relative;
+  /* margin: .84rem; */
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .winner p {
+  width: 100%;
+  height: 45px;
+  background: #FFF;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  bottom: 0;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .akmu {
+  width: 17.649rem;
+  height: 18.938rem;
+  background: url(./images/artist/akmu.jpeg) no-repeat 50%/ cover;
+  filter: grayscale(100%);
+  border-radius: 30px;
+  position: relative;
+  /* margin: .84rem; */
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .akmu p {
+  width: 100%;
+  height: 45px;
+  background: #FFF;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  bottom: 0;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .TREASURE {
+  width: 31.375rem;
+  height: 18.938rem;
+  background: url(./images/artist/TREASURE.jpg) no-repeat 50%/ cover;
+  filter: grayscale(100%);
+  border-radius: 30px;
+  position: relative;
+  /* margin: .84rem; */
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .TREASURE p {
+  width: 100%;
+  height: 45px;
+  background: #FFF;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  bottom: 0;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .sechskies {
+  width: 34.688rem;
+  height: 21.188rem;
+  background: url(./images/artist/TREASURE.jpg) no-repeat 50%/ cover;
+  filter: grayscale(100%);
+  border-radius: 30px;
+  position: relative;
+  /* margin: .84rem; */
+}
+
+.article3 .article3-bg .article3-artists .article3-artists-img .sechskies p {
+  width: 100%;
+  height: 45px;
+  background: #FFF;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  bottom: 0;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
 }
